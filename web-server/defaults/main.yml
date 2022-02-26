@@ -1,0 +1,8 @@
+---
+# defaults file for web-server
+apachepakagename: apache2
+webcontent: index.html
+wwwpath: /var/www/html/index.html
+
+
+
