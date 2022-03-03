@@ -3,6 +3,10 @@
   become: true
  
   tasks:
+  - name: Update the apt cache
+    apt:
+      update_cache: yes
+
   - name: remove openJDK java
     apt:
       name:  openjdk-8-jdk
